@@ -9,7 +9,7 @@ export default function Home(){
 
     function start(){
         if(username){
-           console.log(username)
+            navigate("/letter")
         }else{
            navigate("/signup")
         }
